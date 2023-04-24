@@ -17,6 +17,7 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
 # else is missing a colon
+# line 22 card.value should have a double ==
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -27,6 +28,7 @@ class CardGame:
 
 # dif is misspelled and should be def
 # No comma between card1 and card2
+# line 33 return card, should be return card1
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
